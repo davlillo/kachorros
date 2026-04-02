@@ -1,4 +1,4 @@
-import logo from "@/assets/logo-kachorros.png";
+import logo from "@/assets/LOGO.png";
 import { MessageCircle } from "lucide-react";
 
 const HeroSection = () => {
@@ -8,30 +8,30 @@ const HeroSection = () => {
       <div className="absolute top-10 left-10 w-40 h-40 rounded-full bg-primary/10 blur-3xl" />
       <div className="absolute bottom-10 right-10 w-60 h-60 rounded-full bg-orange/10 blur-3xl" />
 
-      <div className="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+      <div className="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-16">
         {/* Logo */}
         <div className="flex-shrink-0 w-64 md:w-80 lg:w-96 animate-fade-in">
-          <img src={logo} alt="Veterinaria +KACHORROS logo" className="w-full h-auto drop-shadow-2xl" />
+          <img src={logo} alt="Veterinaria KACHORROS logo" className="w-full h-auto drop-shadow-2xl" />
         </div>
 
         {/* Text content */}
-        <div className="text-center lg:text-left space-y-6 animate-fade-in">
+        <div className="text-center space-y-6 animate-fade-in flex flex-col items-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-primary leading-tight">
             Veterinaria
             <br />
-            <span className="text-purple-deep">+KACHORROS</span>
+            <span className="text-purple-deep">KACHORROS</span>
           </h1>
-          <p className="text-lg md:text-xl text-foreground/80 max-w-lg mx-auto lg:mx-0">
+          <p className="text-lg md:text-xl text-foreground/80 max-w-lg mx-auto">
             Cuidamos a tu mascota con amor, dedicación y profesionalismo. ¡Tu mejor amigo merece lo mejor!
           </p>
           <a
-            href="https://wa.me/TUNUMERO"
+            href="https://wa.me/50373158160"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-orange hover:bg-orange-hover text-accent-foreground font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             <MessageCircle size={24} />
-            Agendar Cita por WhatsApp
+            Contactanos por WhatsApp
           </a>
         </div>
       </div>
