@@ -67,12 +67,15 @@ const ServicesSection = () => {
   }, [api]);
 
   return (
-    <section id="servicios" className="py-20 bg-turquoise-light">
-      <div className="container mx-auto px-4">
+    <section
+      id="servicios"
+      className="relative z-[12] -mt-[2px] overflow-hidden bg-turquoise-services pb-20 pt-28 md:pt-32"
+    >
+      <div className="container relative z-10 mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-black text-primary text-center mb-4">
           Nuestros Servicios
         </h2>
-        <p className="text-muted-foreground text-center mb-10 max-w-lg mx-auto">
+        <p className="text-primary-foreground/90 text-center mb-10 max-w-lg mx-auto">
           Todo lo que tu mascota necesita, en un solo lugar.
         </p>
 

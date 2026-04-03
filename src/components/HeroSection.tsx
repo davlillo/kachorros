@@ -37,11 +37,17 @@ const HeroSection = () => {
       </div>
 
       {/* Wave divider */}
-      <div className="absolute bottom-0 left-0 w-full">
-        <svg viewBox="0 0 1440 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
+      <div className="absolute bottom-0 left-0 w-full leading-none">
+        <svg
+          viewBox="0 0 1440 100"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="block h-auto w-full"
+          aria-hidden
+        >
           <path
             d="M0 40C360 100 720 0 1080 50C1260 75 1380 60 1440 50V100H0V40Z"
-            fill="hsl(var(--background))"
+            fill="hsl(var(--about-section))"
           />
         </svg>
       </div>

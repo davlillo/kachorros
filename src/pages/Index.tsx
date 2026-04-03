@@ -1,6 +1,8 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import TeamSection from "@/components/TeamSection";
+import TikTokClipsSection from "@/components/TikTokClipsSection";
 import ServicesSection from "@/components/ServicesSection";
 import FooterSection from "@/components/FooterSection";
 
@@ -10,6 +12,8 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <TeamSection />
+      <TikTokClipsSection />
       <ServicesSection />
       <FooterSection />
     </div>

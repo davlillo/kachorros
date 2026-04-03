@@ -40,9 +40,17 @@ All colors MUST be HSL.
 
     --turquoise: 181 100% 41%;
     --turquoise-light: 180 60% 95%;
+    /* Fondo sección Servicios — tono turquesa referencia #10C9C3 */
+    --turquoise-services: 178 85% 43%;
     --purple-deep: 276 80% 30%;
     --orange: 30 88% 55%;
     --orange-hover: 30 88% 48%;
+
+    /* Amarillo sección Sobre nosotros (#FFD300) — misma referencia que la ola del hero */
+    --about-section: 49 100% 50%;
+
+    /* Fondo sección Equipo (azul muy claro) — continuidad con la ola bajo Sobre nosotros */
+    --team-section: 199 70% 96%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

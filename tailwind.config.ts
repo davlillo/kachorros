@@ -53,12 +53,15 @@ export default {
         turquoise: {
           DEFAULT: "hsl(var(--turquoise))",
           light: "hsl(var(--turquoise-light))",
+          services: "hsl(var(--turquoise-services))",
         },
         orange: {
           DEFAULT: "hsl(var(--orange))",
           hover: "hsl(var(--orange-hover))",
         },
         "purple-deep": "hsl(var(--purple-deep))",
+        "about-section": "hsl(var(--about-section))",
+        "team-section": "hsl(var(--team-section))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -96,11 +99,30 @@ export default {
           from: { opacity: "0", transform: "translateY(20px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        /** Huellas decorativas — movimiento suave en bucle */
+        "paw-wiggle": {
+          "0%, 100%": { transform: "translate(0, 0) rotate(0deg)" },
+          "25%": { transform: "translate(5px, -7px) rotate(4deg)" },
+          "50%": { transform: "translate(-4px, 6px) rotate(-3deg)" },
+          "75%": { transform: "translate(4px, 4px) rotate(2deg)" },
+        },
+        "paw-wiggle-b": {
+          "0%, 100%": { transform: "translate(0, 0) rotate(0deg)" },
+          "33%": { transform: "translate(-6px, 5px) rotate(-4deg)" },
+          "66%": { transform: "translate(5px, -6px) rotate(3deg)" },
+        },
+        "paw-wiggle-c": {
+          "0%, 100%": { transform: "translate(0, 0) rotate(0deg)" },
+          "50%": { transform: "translate(6px, 7px) rotate(-5deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.8s ease-out forwards",
+        "paw-wiggle": "paw-wiggle 4.2s ease-in-out infinite",
+        "paw-wiggle-b": "paw-wiggle-b 5.5s ease-in-out infinite",
+        "paw-wiggle-c": "paw-wiggle-c 3.8s ease-in-out infinite",
       },
     },
   },
